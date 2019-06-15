@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vistaFondo"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ActividadDetalles"
+    tools:showIn="@layout/actividad_detalle">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/titulo_pelicula"
+                android:layout_marginStart="@dimen/layout_margen_izquierdo"
+                android:text="@string/nombre_pelicula"
+                android:textAlignment="center"
+                android:textColor="@color/negro"
+                android:layout_marginTop="@dimen/layout_margen_arriba2"
+                android:textStyle="bold"
+                android:textSize="@dimen/textoGrande"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/titulo"
+                android:layout_marginStart="@dimen/layout_margen_izquierdo"
+                android:padding="@dimen/padding_layout"
+                android:layout_marginTop="@dimen/layout_margen_arriba"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/negro"
+                android:textSize="@dimen/textoMedio" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/trama"
+                android:layout_marginStart="@dimen/layout_margen_izquierdo"
+                android:padding="@dimen/padding_layout"
+                android:text="@string/trama"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/layout_margen_arriba2"
+                android:textStyle="bold"
+                android:textColor="@color/negro"
+                android:textSize="@dimen/textoGrande" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tramasinopsis"
+                android:layout_marginStart="@dimen/layout_margen_izquierdo"
+                android:padding="@dimen/padding_layout"
+                android:textAlignment="center"
+                android:textColor="@color/negro"
+                android:layout_marginTop="@dimen/layout_margen_arriba"
+                android:textSize="@dimen/textoMedio" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/calificacion"
+                android:layout_marginStart="@dimen/layout_margen_izquierdo"
+                android:text="@string/calificacion"
+                android:padding="@dimen/padding_layout"
+                android:textColor="@color/negro"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/layout_margen_arriba2"
+                android:textStyle="bold"
+                android:textSize="@dimen/textoGrande" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/calificacionUsuario"
+                android:layout_marginStart="@dimen/layout_margen_izquierdo"
+                android:textAlignment="center"
+                android:textColor="@color/negro"
+                android:padding="@dimen/padding_layout"
+                android:layout_marginTop="@dimen/layout_margen_arriba"
+                android:textSize="@dimen/textoMedio" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lanzamiento"
+                android:layout_marginStart="@dimen/layout_margen_izquierdo"
+                android:text="@string/lanzamiento"
+                android:padding="@dimen/padding_layout"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/layout_margen_arriba2"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:textSize="@dimen/textoGrande" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fechaLanzamiento"
+                android:layout_marginStart="@dimen/layout_margen_izquierdo"
+                android:padding="@dimen/padding_layout"
+                android:layout_marginTop="@dimen/layout_margen_arriba"
+                android:textAlignment="center"
+                android:textColor="@color/negro"
+                android:textSize="@dimen/textoMedio" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

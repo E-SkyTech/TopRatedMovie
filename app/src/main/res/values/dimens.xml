@@ -1,0 +1,37 @@
+<resources>
+    <!-- DEFAULT -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="texto">16sp</dimen>
+    <dimen name="textoMedio">20sp</dimen>
+    <dimen name="textoGrande">25sp</dimen>
+    <dimen name="padding_layout">16dp</dimen>
+    <!-- DEFAULT END -->
+
+    <!-- DIMENSIONES, MÁRGENES Y ESPACIOS ADICIONALES -->
+
+    <!-- CUADRO PELICULA -->
+
+    <dimen name="imageView_height">150dp</dimen>
+    <dimen name="imageView_width">150dp</dimen>
+    <dimen name="cuadro_margen">5dp</dimen>
+    <dimen name="cardView_radio">0dp</dimen>
+    <dimen name="cardView_elevation">3dp</dimen>
+    <dimen name="textViews_padding">10dp</dimen>
+    <dimen name="textViews2_padding">5dp</dimen>
+    <dimen name="calificacion_usuario">12sp</dimen>
+    <dimen name="titulo_pelicula">15sp</dimen>
+
+    <!-- FIN CUADRO PELICULA -->
+
+    <!-- CONTENIDO DETALLE -->
+
+    <dimen name="layout_margen_izquierdo">10dp</dimen>
+    <dimen name="layout_margen_arriba">3dp</dimen>
+    <dimen name="layout_margen_arriba2">10dp</dimen>
+
+    <!-- FIN CONTENIDO DETALLE -->
+
+
+</resources>

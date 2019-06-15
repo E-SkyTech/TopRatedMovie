@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="120dp"
+    android:layout_height="250dp"
+    android:adjustViewBounds="true">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="250dp"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/cuadro_margen"
+        android:elevation="@dimen/cardView_elevation"
+        card_view:cardCornerRadius="@dimen/cardView_radio">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/imageView_width"
+                android:layout_height="@dimen/imageView_height"
+                android:id="@+id/thumbnail"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/titulo"
+                android:layout_below="@+id/thumbnail"
+                android:paddingStart="@dimen/textViews_padding"
+                android:paddingEnd="@dimen/textViews_padding"
+                android:paddingTop="@dimen/textViews_padding"
+                android:textColor="@color/negro"
+                android:textSize="@dimen/titulo_pelicula"/>
+
+            <LinearLayout
+                android:id="@+id/layout_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titulo"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_stars_blue_24dp" />
+
+                <TextView
+                    android:id="@+id/calificacionUsuario"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="9"
+                    android:text="@string/calificacion"
+                    android:textColor="#000080"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

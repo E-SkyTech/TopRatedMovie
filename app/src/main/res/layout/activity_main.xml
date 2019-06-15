@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/actividad_principal"
+    android:background="@color/blanco"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/vistaFondo"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_layout"
+            android:text="@string/top_mejores_calificadas"
+            android:textStyle="bold"
+            android:textSize="@dimen/texto"/>
+
+        <com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_view"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            app:msrv_gravity="start"
+            app:msrv_ms_per_inch="100"
+            app:msrv_snap_count="1"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

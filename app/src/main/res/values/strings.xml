@@ -1,0 +1,15 @@
+<resources>
+    <!-- DEFAULT -->
+    <string name="app_name">TopRatedMovies</string>
+    <!-- DEFAULT END -->
+
+    <!-- STRINGS Adicionales -->
+    <string name="nombre_pelicula">Título Película</string>
+    <string name="detalles_película">Detalles Película</string>
+    <string name="trama">Sinopsis</string>
+    <string name="calificacion">Calificación</string>
+    <string name="lanzamiento">Fecha de estreno</string>
+    <string name="top_orden_clasificacion_etiqueta">Orden de Clasificación</string>
+    <string name="top_orden_clasificacion_llave">ordenClasificacion</string>
+    <string name="top_mejores_calificadas">Películas Mejor Evaluadas</string>
+</resources>
